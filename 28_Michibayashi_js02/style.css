@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+header{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+body{
+    width: 1000px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.morning-duty{
+
+        padding: 0.5em 1em;
+        margin: 1em 0;
+        background: #f4f4f4;
+        border-left: solid 20px #72ccc3;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33)
+    }
+
+
+
+h2{
+    font-size: 30px;
+    padding-bottom:20px
+}
+
+.m-table{
+    padding-top: 7px;
+    padding-bottom: 50px;
+}
+
+.m-table th{
+    background-color:#f4f4f4;
+    padding: 5px;
+    font-size: 20px
+    
+}
+
+.m-table td{
+    font-size: 15px;
+    padding: 5px;
+}
+
+
+#button{
+    margin: 10px;
+    margin-top: 10px;
+}
+
+
+
+.n-table {
+    margin-top: 10px;
+    padding-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+  }
+
+.n-table th{
+    padding: 5px;
+    background-color:#f4f4f4;
+    font-size: 20px
+    
+}
+
+  table th, table td {
+    border: solid 2px #ebebeb;
+    /*実線 1px 黒*/
+  }
+  /*余白と文字装飾は省略*/
+
+  .night-duty{
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    background: #f4f4f4;
+    border-left: solid 20px #4b55db;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.33)
+}
+
+.n-table td{
+    font-size: 15px;
+    padding: 5px;
+}
+
+#n_button{
+    margin: 10px;
+    margin-top: 10px;
+}
+
+/* コメント入力欄 */
+
+/* 吹き出し */
+
+.fukidashi {
+    
+    position: relative;
+    margin-bottom: 10px;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    background: #eee;
+  }
+  
+  .fukidashi:before,
+  .fukidashi:after {
+    position: absolute;
+    content: '';
+    border-radius: 50%;
+    background: #eee;
+  }
+  
+  .fukidashi:before {
+    bottom: -15px;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .fukidashi:after {
+    bottom: -30px;
+    left: 50px;
+    width: 15px;
+    height: 15px;
+  }
+
+h4{
+    border-top: 1px; 
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    display: flex;
+    padding-left: 280px;
+    padding-right: 14px;
+    flex-wrap: wrap;
+
+}
+
+ul {
+    font-size: 18px;
+    padding: 0;
+    border-top: 1px solid #000000;
+    display: table; /* 定義 */
+    table-layout: fixed;
+    width: 96%;
+    margin: 0 3%;
+    text-align: center;
+  }
+  li {
+    
+    list-style-type: none;
+    border: 1px solid #666;
+    background-color: #fff;
+    display: table-cell; /* 定義 */
+    cursor: pointer;
+    color: #0d7dfd;
+    margin: 30px;
+  }
+  li:hover {
+    background: #0d7dfd;
+    color: #fff;
+  }
+  textarea {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 216px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  #key {
+    margin: 0 3%;
+    width: 95%;
+    font-size: 80%;
+    background-color: #e1efff;
+    
+  }
+  table {
+    margin: 20px 3%;
+    border: 1px solid #baddff;
+    width: 96%;
+    padding-bottom: 50px;
+  }
+  th {
+    width: 30%;
+    font-size: 20px;
+    background-color: #d0e7fc;
+    border-bottom: 1px solid #8dc3f5;
+    
+  }
+  td {
+    font-size: 16px;
+    background-color: rgb(241, 239, 239);
+    border-bottom: 1px solid #8dc3f5;
+  }
+  .Form-Item-Imput {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-left: 40px;
+    padding-left: 1em;
+    padding-right: 1em;
+    height: 48px;
+    flex: 1;
+    width: 100%;
+    max-width: 410px;
+    background: #eaedf2;
+    font-size: 18px;
+  }
+  
